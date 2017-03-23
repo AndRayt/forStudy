@@ -2,7 +2,7 @@ class Fact {
   public static void main(String[] args) {
   if (args.length == 1) {
     try {
-        System.err.println(fact(Integer.parseInt(args[0])));
+        System.out.println(fact(Integer.parseInt(args[0])));
     }  catch(Throwable t) {
         System.err.println("Error. Perhaps incorrect arguments");
     }
