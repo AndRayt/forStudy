@@ -66,10 +66,6 @@ public class MyStack {
         return size;
     }
 
-    /**
-     * Адресс вершины (относительно сегмента стека)
-     * @return
-     */
     public int getTop() {
         return top;
     }
