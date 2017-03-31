@@ -34,7 +34,6 @@ public class MyStack {
         if (top < (size - 1)) {
             top++;
             sElement = new Element(element, sElement);
-           // fElement = sElement;
         }
     }
 
